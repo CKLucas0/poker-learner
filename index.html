@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Poker Beslissingstrainer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Poker Beslissingstrainer</h1>
+    <div class="cards" id="card-display">
+      <!-- Kaarten worden hier weergegeven -->
+    </div>
+    <div class="actions">
+      <button onclick="handleDecision('Fold')">Fold</button>
+      <button onclick="handleDecision('Call')">Call</button>
+      <button onclick="handleDecision('Raise')">Raise</button>
+    </div>
+    <div id="result"></div>
+    <button class="new-hand" onclick="generateHand()">Nieuwe Hand</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
